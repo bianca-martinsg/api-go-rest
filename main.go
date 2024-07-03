@@ -13,6 +13,6 @@ func main() {
 		{Id: 2, Name: "Isaac Newton", History: "Sir Isaac Newton was an English mathematician, physicist, astronomer, and author who is widely recognized as one of the most influential scientists of all time, and a key figure in the scientific revolution."},
 	}
 
-	database.db.connectToDB() // Ensure the function name starts with an uppercase letter
+	database.connectToDB()
 	routes.HandleRequest()
 }
